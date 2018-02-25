@@ -1,0 +1,73 @@
+/* .moreDetails{
+     position: fixed;
+    left: 78%;
+    top: 57%;
+    display: block;
+    border-style: double;
+    border-color: #1998b5;
+    font-size: 1em;
+    height: 97px;
+    width: 269px;
+    background-color: white;
+    padding: 4px 4px 4px 4px;
+    overflow: auto;
+} */
+
+.moreDetails{
+    z-index: 100;
+    position: absolute;
+    left: 20%;
+    float: left;
+    top: 0%;
+    display: block;
+    border-style: double;
+    border-color: #1998b5;
+    font-size: 2em;
+    height: 80%;
+    width: 50%;
+    background-color: #d1f0f8;
+    padding: 4px 4px 4px 4px;
+    overflow: auto;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    font-size: 1em;
+}
+
+.description{
+    font-size:0.6em;
+}
+
+.displayForHomePage{
+    background-color: rgb(209, 240, 248);
+    top: 20%;
+    left: 30%;
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    display: inline-block;
+    overflow: auto;
+    margin-left: -5%;
+    position: fixed;
+    border: 5px solid black;
+    padding:10px;
+    color:black;
+}
+
+.titleHomePage{
+    text-align: center;
+    font-size: 2em;
+    color:black;
+}
+
+.priceHomePage{
+   font-size:1.6em;
+}
+
+.descriptionHomePage{
+    font-size:1.6em;
+    color:black;
+    
+}

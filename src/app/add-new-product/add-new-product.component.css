@@ -1,0 +1,36 @@
+.container{
+    text-align: right;
+}
+/* .container h3{
+    right: -58px;
+    position: relative;
+    padding: 5px;
+} */
+.productForm{
+    border: 2px solid white;
+    border-style: outset;
+    display: inline-block;
+    margin: 1em 0em;
+    padding: 1em;
+    right: 20px;
+    position: absolute;
+}
+
+
+.form-control.ng-touched.ng-invalid{
+    border:2px solid red;
+}
+
+.alert{
+    padding:10px;
+}
+
+.debug{
+    position: absolute;
+    top: 30em;
+    right: 20px;
+    color: black;
+    display: inline-block;
+    padding: 4px;
+    margin: 20px 0px 0px;
+}

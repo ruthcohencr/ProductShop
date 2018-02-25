@@ -1,0 +1,10 @@
+<nav>
+  <ul class="nav nav-pills">
+    <li role="presentation" [ngClass]="{'active':localCurrentPage =='HomePage'}"><a class="myNav" routerLink="/home" href="#" (click)="onClick('HomePage')">עמוד הבית</a></li>
+    <li role="presentation" [ngClass]="{'active':localCurrentPage =='ProductsPage'}"><a class="myNav" routerLink="/product-page" href="#" (click)="onClick('ProductsPage')">מוצרי החנות</a></li>
+    <li role="presentation" [ngClass]="{'active':localCurrentPage =='ContactUs'}"><a class="myNav" routerLink="/contact-us" href="#" (click)="onClick('ContactUs')">יצירת קשר</a></li>
+    <li role="presentation" [ngClass]="{'active':localCurrentPage =='AddProductPage'}"><a class="myNav" routerLink="/add-new-product" href="#" (click)="onClick('AddProductPage')">הוסף מוצר חדש</a></li>
+
+  </ul>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,62 @@
+
+.chosen{
+    color:#BF2F5B;
+    font-style: italic;
+}
+
+#container{
+    text-align: right;
+    background-color: rgba(191, 235, 245, 0.72);
+}
+
+.list{
+    background-color: red;
+    color:red;
+}
+
+#itemContainer{
+    height: 100%;
+    width: 100%;
+    border:1px solid red;
+}
+
+._ngcontent-c3{
+background-color: green;
+}
+
+.item{
+    background-color: #e7e6e4;
+    border: 2px solid silver;
+    padding: 4px 6px;
+    float: right;
+    display: block;
+    height: 12em;
+    width: 12em;
+    margin: 1px;
+}
+
+.imageItem{
+      float: left;
+}
+#productImage{  
+    height: 92px;
+    float: left;
+    width: 80%;
+}
+
+.btnShopping{
+    position: relative;
+    bottom: 2px;
+}
+#price{
+    float:left;
+    position: absolute;
+    clear:both;
+}
+
+/* 
+.chosen::after{
+ color: red;
+ font-size: 26px;
+ border-color: white;
+} */

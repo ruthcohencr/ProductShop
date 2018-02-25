@@ -1,0 +1,15 @@
+h2{
+    text-align: right;
+    position: absolute;
+    display: inline-block;
+    right: 1em;
+    top: 16em;
+}
+
+.shoppingCartItem{
+    top: -9em;
+    right: 2em;
+    text-align: right;
+    position: relative;
+}
+

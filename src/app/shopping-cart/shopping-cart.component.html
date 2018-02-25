@@ -1,0 +1,6 @@
+<h2>רשימת הקניות שלי:</h2>
+<ol>
+    <li  class="shoppingCartItem" *ngFor="let product of shoppingCartList">
+                {{product.name}} {{product.price}} ש"ח
+    </li>
+</ol>

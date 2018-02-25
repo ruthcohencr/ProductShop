@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
+<div class="homePageContainer">
+  <back-ground-image></back-ground-image>
+
+  <div class="productList">
+
+    <products (click)="onProductClicked()" [currentPage]="page" class="displayMoreDetails"></products>
+  </div>
+
+ <div> 
+   <app-shopping-cart></app-shopping-cart>
+  </div>
+</div>

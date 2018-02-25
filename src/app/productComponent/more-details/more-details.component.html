@@ -1,0 +1,15 @@
+<div *ngIf="selectedProduct != null">
+    <div *ngIf="currentProduct == selectedProduct && inPage=='ProductsPage'" class="moreDetails">
+        <div class="title">{{currentProduct.name}}</div>
+        <div class="price"> {{currentProduct.price}} ש"ח</div>
+        <div class="description"> {{currentProduct.description}}</div>
+        <img [src]="currentProduct.image">
+    </div>
+
+    <div *ngIf="inPage=='HomePage'" class="displayForHomePage">
+        <div class="titleHomePage">{{currentProduct.name}}</div>
+        <div class="priceHomePage"> {{currentProduct.price}} ש"ח</div>
+        <div class="descriptionHomePage"> {{currentProduct.description}}</div>
+        <img [src]="currentProduct.image">
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div id="container">
+    <!-- <h2>רשימת המוצרים המובילים</h2> -->
+    <ul>
+        <div (click)="onChosenItem(product);" *ngFor="let product of productArray"
+         
+        [ngClass]="{'chosen':product==selectedProduct}">
+            <div>
+                <div class="item" *ngIf="product!=null">
+                    <p>{{product.name}}</p>
+                    <div class="imageItem">
+                        <img *ngIf="product.image != null" [src]="product.image" id="productImage">
+                        <img *ngIf="product.image == null" [src]="" id="productImage">
+                    </div>
+                    <div id="price">{{product.price}}</div>
+                    <div class="btnShopping">
+                        <button class="btn btn-primary" (click)="onClick(product)" type="button">הוסף לסל</button>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="product==selectedProduct">
+                <app-more-details [moreDetailsCurrentPage]="selectedPage" [selectedProduct]="selectedProduct">
+                </app-more-details>
+            </div>
+        </div>
+    </ul>
+</div>
